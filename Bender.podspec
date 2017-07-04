@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ptiz/bender"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Evgeny Kamyshanov" => "ptiz@live.ru" }
-  s.platform     = :ios
+  s.platform     = :ios, :osx
 
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
